@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  type="text/css" href="index.css">
+    </head>
+    <body>
+        <form>
+        <div class="top">
+            <h1>freecode camp Survey form</h1>
+            <p>thankyou for improving our website</p>
+        </div>
+        <div class="form">
+            <div>
+                <br>
+                <h3 class="topic">Name</h3>
+                <form action="#">
+                 <label>
+                    <input class="fillme" type="text" placeholder="Enter Your Name" required>
+                 </label>
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">Email</h3>
+                <form action="#">
+                    <input class="fillme" type="text" placeholder="Your favorite email" required>
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">Age(optional)</h3>
+                <form action="#">
+                    <input class="fillme" >
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">Which option describe your current role:</h3>
+                <form action="#">
+                    <input class="fillme" placeholder="Select any one" list="role">
+                    <datalist id="role" class="fillme">
+                        <option value="student">Student</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="learner" >Full Time Learner</option>
+                        <option  value="notsay"> Prefer not say</option>
+                        <option value="other">Other</option>
+                    </datalist>
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">Would you recommend freecodecamp to a friend?</h3>
+                <form action="#" class="radioone" required >
+                    <input type="radio" value="yes" name="myradio">Definitely
+                    <br>
+                    <input type="radio" value="maybe" name="myradio">Maybe
+                    <br>
+                    <input type="radio" value="maybenot" name="myradio">Maybe not 
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">What is your favorite feature of freecodecamp?</h3>
+                <form action="#">
+                    <input class="fillme" type="text"  list="feature">
+                    <datalist id="feature" class="fillme">
+                        <option value="challenges">Challenges</option>
+                        <option value="projects">Projects</option>
+                        <option value="community">Community</option>
+                        <option value="opensource">Open Source</option>
+                    </datalist>
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">What would you like to see improved?</h3>
+                <form action="#"class="checkbox">
+                    <input type="checkbox" name="improvement" value="frontend">Front-end Projects
+                    <br>
+                    <input type="checkbox" name="improvement" value="backend">Back-end Projects
+                    <br>
+                    <input type="checkbox" name="improvement" value="data">Data Visualization
+                    <br>
+                    <input type="checkbox" name="improvement" value="challenges">Challenges
+                    <br>
+                    <input type="checkbox" name="improvement" value="opensource">Open source Commmunity
+                    <br>
+                    <input type="checkbox" name="improvement" value="gitterhelp room">Gitter help room
+                    <br>
+                    <input type="checkbox" name="improvement" value="Videos"> Videos
+                    <br>
+                    <input type="checkbox" name="improvement" value="meetup">City Meetups
+                    <br>
+                    <input type="checkbox" name="improvement" value="wiki">Wiki
+                    <br>
+                    <input type="checkbox" name="improvement" value="forum">Forum
+                    <br>
+                    <input type="checkbox" name="improvement" value="Additionalcourse">Additional Courses
+                </form>
+            </div>
+            <br>
+            <div>
+                <h3 class="topic">Any comments or suggestions?</h3>
+                <form action="#">
+                    <input type="text" class="comment" placeholder="Enter your comment here...">
+                </form>
+            </div>
+            <br>
+            <div class="button1">
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </div>
+        </form>
+        <footer>&copy abhinas regmi. For more information contact: abhinasregmi1@gmail.com</footer>
+
+    </body>
+</html>
